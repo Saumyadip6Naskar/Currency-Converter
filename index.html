@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <header></header>
+
+        <div id="check">
+            <a href="https://www.xe.com/currencyconverter/" target="_blank">
+                <h2>Check live foreign currency exchange rates</h2>
+            </a>
+        </div>
+
+        <div id="rest">
+            <div id="work">
+                <div id="amount" class="box">
+                    <label for="amountInput">Amount</label><br>
+                    <input type="number" id="amountInput" placeholder="Enter amount">
+                </div>
+
+                <div id="from" class="box">
+                    <label for="fromCurrency">From</label><br>
+                    <select id="fromCurrency"></select>
+                </div>
+
+                <div id="to" class="box">
+                    <label for="toCurrency">To</label><br>
+                    <select id="toCurrency"></select>
+                </div>
+
+                <div id="convert" class="box">
+                    <button id="convertBtn">Convert</button>
+                    <p id="result"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
